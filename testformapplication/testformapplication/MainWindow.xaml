@@ -1,0 +1,26 @@
+﻿<Window x:Class="testformapplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:testformapplication"
+        mc:Ignorable="d"
+        Title="very cool app" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="button1" Content="Github" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" Height="32" Width="96"/>
+        <Calendar HorizontalAlignment="Left" Margin="581,44,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="793" Margin="-19,187,0,0" VerticalAlignment="Top" Width="275" Source="/IMG_0052.JPG" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="93.48"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <PasswordBox HorizontalAlignment="Left" Margin="430,347,0,0" VerticalAlignment="Top" Width="120" Password="mackmack123"/>
+        <ProgressBar Height="10" Width="100" Margin="430,370,270,54"/>
+
+    </Grid>
+</Window>
